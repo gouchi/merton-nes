@@ -1,0 +1,11 @@
+INCFLAGS :=  \
+	-I$(CORE_DIR)/dep \
+	-I$(CORE_DIR)/src 
+
+SOURCES_C = \
+	$(CORE_DIR)/apu.c \
+	$(CORE_DIR)/cart.c \
+	$(CORE_DIR)/cpu.c \
+	$(CORE_DIR)/ppu.c \
+	$(CORE_DIR)/retro.c \
+	$(CORE_DIR)/sys.c
